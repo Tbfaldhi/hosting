@@ -14,7 +14,11 @@ header {
     min-width: 200px;
     padding: 50px;
 }
-
+.tes{
+  display: inline-block;
+ float: right;
+ padding: 0p;
+}
 html,
 body {
     padding: 0;
@@ -41,6 +45,11 @@ img {
     height: auto;
 }
 
+.tanggal{
+  display: inline-block;
+  text-align: center;
+  padding: 0p;
+}
 p {
     font-family: Arial;
     font-weight: bold;
@@ -69,8 +78,9 @@ h3 {
 .box {
     width: 400px;
     height: 400px;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     transition: width 2s;
+    padding: 10px 10px 10px 10px;
 }
 
 .description {
